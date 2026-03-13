@@ -75,29 +75,24 @@ The exploratory data analysis (`EDA STUDENT PERFORMANCE.ipynb`) revealed several
    - **Female students** tend to perform better in Reading and Writing.
    - **Male students** tend to have a slight edge in Maths but lag behind in overall average compared to females.
    
-   *(Take the Total Average vs Math Average bar chart grouped by gender from Cell 39/40)*
    ![Gender Performance Comparison](assets/gender_performance_comparison.png)
 
 3. **Impact of Test Preparation Course:**
    - Students who completed a test preparation course consistently scored higher across *all three subjects* than those who did not.
 
-   *(Take the Students vs Test Preparation Course count plots from Cell 61/62)*
    ![Test Preparation Impact](assets/test_preparation_impact.png)
 
 4. **Socioeconomic Impact (Lunch type):**
    - Students with **Standard lunch** performed significantly better than those with a Free/Reduced lunch, indicating a strong correlation between socioeconomic status and academic outcomes.
 
-   *(Take the Scores vs Lunch & Test Prep barplots from Cell 61/62)*
    ![Lunch Type Impact on Scores](assets/lunch_type_scores.png)
 
 5. **Parental Level of Education:**
    - There is a positive trend between higher parental education levels (e.g., Master's or Bachelor's degrees) and higher student test scores.
 
-   *(Take the Average Scores by Parental Level of Education horizontal bar chart from Cell 55/56)*
    ![Parental Education Impact](assets/parental_education_impact.png)
 
 ### Feature Distributions at a Glance
-*(Take the large 5-subplot Pie Chart figure from Cell 33/34 showing Gender, Race, Lunch, Test Course, and Parental Education)*
 ![Demographic Distributions](assets/demographic_distributions.png)
 
 ## Technologies Used
