@@ -100,7 +100,7 @@ The exploratory data analysis (`EDA STUDENT PERFORMANCE.ipynb`) revealed several
 *(Take the large 5-subplot Pie Chart figure from Cell 33/34 showing Gender, Race, Lunch, Test Course, and Parental Education)*
 ![Demographic Distributions](assets/demographic_distributions.png)
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **Language:** Python
 - **Data Manipulation & Analysis:** Pandas, NumPy
 - **Data Visualization:** Matplotlib, Seaborn
