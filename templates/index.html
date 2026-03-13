@@ -1,1 +1,29 @@
-<h1>Welcome to the home page</h1>
+{% extends "base.html" %}
+
+{% block title %}Student Exam Performance Prediction{% endblock %}
+
+{% block content %}
+<div class="glass-card" style="text-align: center; max-width: 900px; margin: 60px auto; padding: 60px 40px;">
+    <div style="font-size: 4rem; margin-bottom: 30px;">🎓</div>
+    <h1 style="font-size: 3.5rem; color: var(--primary-color); margin-bottom: 24px; line-height: 1.1;">
+        Student Performance <br> Analysis & Prediction
+    </h1>
+    <p style="font-size: 1.25rem; color: var(--text-muted); margin-bottom: 45px; line-height: 1.8; max-width: 700px; margin-left: auto; margin-right: auto;">
+        A system designed to predict mathematics scores using an advanced ML pipeline. 
+        Input demographic and educational indicators to receive instant, data-driven estimates.
+    </p>
+    
+    <div style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+        <a href="{{ url_for('predict_datapoint') }}" class="btn btn-primary" style="font-size: 1.1rem; padding: 18px 40px; box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);">
+            Get Started Now
+        </a>
+        <a href="https://github.com/neelavro777/Student-Performance-Indicator" target="_blank" class="btn" style="border: 2px solid #e5e7eb; background: white; padding: 16px 32px; color: var(--text-main);">
+            Explore Research
+        </a>
+    </div>
+    
+    <div style="margin-top: 50px; padding-top: 40px; border-top: 1px solid #f3f4f6; color: #9CA3AF; font-size: 0.875rem;">
+        Built with Python, Scikit-Learn
+    </div>
+</div>
+{% endblock %}
